@@ -26,7 +26,7 @@ VALUES (
         gen_random_uuid(),
         'Administrador',
         'admin@pettrack.com',
-        '$2a$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2uheWG/igi.',
+        '$2a$10$sVhgGLhXy63VC5NTinY9Hug.RbE2Cp.MuW8CzHc60KihgWyGCcQVy',
         'ADM001',
         'ADMIN',
         true,
