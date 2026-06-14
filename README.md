@@ -11,7 +11,7 @@ O **PetTrack** é um sistema backend robusto de gerenciamento de Centro de Distr
 O projeto foi desenvolvido como um **Monolito Modular**, onde pacotes são organizados por módulos de negócio com fronteiras bem definidas. Esta arquitetura permite o desenvolvimento e debugging simplificado, mantendo transações ACID nativas e um caminho claro para uma futura extração para microsserviços.
 
 ### Pilares Técnicos
-* **Logística Especializada**: Controle de cadeia fria (2$^{\circ}$C a 8$^{\circ}$C), FIFO automático por validade, rastreabilidade de lote Anvisa e controle de peso/capacidade.
+* **Logística Especializada**: Controle de cadeia fria (2ºC a 8ºC), FIFO automático por validade, rastreabilidade de lote Anvisa e controle de peso/capacidade.
 * **Segurança**: Autenticação stateless via **JWT** (JSON Web Token), integrando Spring Security e criptografia de senhas via BCrypt.
 * **Persistência**: Versionamento de banco de dados com **Flyway**, garantindo que todas as alterações estruturais sejam auditáveis e reprodutíveis.
 * **Qualidade**: Cobertura de testes de integração com **Testcontainers**, validando o sistema contra instâncias reais do PostgreSQL.
